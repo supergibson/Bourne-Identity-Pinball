@@ -1,0 +1,101 @@
+2026-10-28 08:59:09,828 : INFO : root : Loading config.
+2026-10-28 08:59:10,028 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\super\AppData\Local\Temp\config_spec.mpf_cache
+2026-10-28 08:59:10,029 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-10-28 08:59:10,030 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\3a72cb8a9be49c03769869342cea45ca.mpf_cache
+2026-10-28 08:59:10,138 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\super\Documents\Bourne-Identity-Pinball\modes\attract\config\attract.yaml
+2026-10-28 08:59:10,138 : INFO : ConfigProcessor : Loading config from file C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-10-28 08:59:10,142 : INFO : ConfigProcessor : Loading config: C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-10-28 08:59:10,142 : INFO : ConfigProcessor : Loading config from file C:\Users\super\Documents\Bourne-Identity-Pinball\modes\attract\config\attract.yaml.
+2026-10-28 08:59:10,148 : INFO : ConfigProcessor : Loading config: C:\Users\super\Documents\Bourne-Identity-Pinball\modes\attract\config\attract.yaml
+2026-10-28 08:59:10,149 : INFO : ConfigProcessor : Config file cache created: C:\Users\super\AppData\Local\Temp\820189b66a30751115d0f175f8cd583f.mpf_cache
+2026-10-28 08:59:10,150 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\df77682f85e5da361c68c53ae7221e86.mpf_cache
+2026-10-28 08:59:10,151 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\820189b66a30751115d0f175f8cd583f.mpf_cache
+2026-10-28 08:59:10,153 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\e86a25183e2094949a0adaffad38af2b.mpf_cache
+2026-10-28 08:59:10,154 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.1
+2026-10-28 08:59:10,154 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-10-28-08-59-09-mpf-LAPTOP-4KU8Q9KV.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\super\\Documents\\Bourne-Identity-Pinball\\logs\\2026-10-28-08-59-09-mpf-LAPTOP-4KU8Q9KV.log'}
+2026-10-28 08:59:10,154 : INFO : Machine : MPF path: C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf
+2026-10-28 08:59:10,154 : INFO : Machine : Machine path: C:\Users\super\Documents\Bourne-Identity-Pinball
+2026-10-28 08:59:10,154 : INFO : Machine : Platform: win32
+2026-10-28 08:59:10,154 : INFO : Machine : Python executable location: C:\users\super\documents\mpf\mpf\Scripts\python.exe
+2026-10-28 08:59:10,154 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-10-28 08:59:10,157 : INFO : Machine : Initializing MPF...
+2026-10-28 08:59:10,353 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,373 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,373 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.1', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,373 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,373 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,629 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,629 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,629 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,630 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,630 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,630 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\super\\Documents\\Bourne-Identity-Pinball\\logs\\2026-10-28-08-59-09-mpf-LAPTOP-4KU8Q9KV.log', 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,630 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-10-28 08:59:10,649 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-10-28 08:59:10,650 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-10-28 08:59:10,652 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-10-28 08:59:10,665 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-10-28 08:59:10,665 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-10-28 08:59:10,666 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-10-28 08:59:10,666 : INFO : ball_device.bd_plunger : State: idle
+2026-10-28 08:59:10,666 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-10-28 08:59:10,666 : INFO : ball_device.bd_trough : State: idle
+2026-10-28 08:59:10,675 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-10-28 08:59:10,676 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-10-28 08:59:10,676 : INFO : BallController : Initial balls found: 0
+2026-10-28 08:59:10,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,677 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-10-28 08:59:10,678 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-10-28 08:59:10,689 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-10-28 08:59:10,689 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-10-28 08:59:10,689 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-10-28 08:59:10,689 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-10-28 08:59:10,690 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-10-28 08:59:10,690 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:10,690 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:10,691 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-10-28 08:59:10,691 : INFO : Mode.attract : Started. Priority: 10
+2026-10-28 08:59:10,691 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-10-28 08:59:10,691 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-10-28 08:59:10,692 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-10-28 08:59:10,692 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-10-28 08:59:10,694 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-10-28 08:59:10,744 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-10-28 08:59:10,744 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-10-28 08:59:10,745 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-10-28 08:59:15,691 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-10-28 08:59:15,692 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-10-28 08:59:15,692 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-28 08:59:15,692 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-28 08:59:15,692 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-10-28 08:59:15,692 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:15,693 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:15,693 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-10-28 08:59:20,708 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-10-28 08:59:20,708 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-10-28 08:59:20,708 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-28 08:59:20,708 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-28 08:59:20,708 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-10-28 08:59:20,708 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:20,708 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:20,709 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'sg_logo'}
+2026-10-28 08:59:25,710 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-10-28 08:59:25,710 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-10-28 08:59:25,710 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-28 08:59:25,710 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-10-28 08:59:25,710 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-10-28 08:59:25,710 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:25,711 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-10-28 08:59:25,711 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-10-28 08:59:27,436 : INFO : Machine : Shutting down...
+2026-10-28 08:59:27,437 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-10-28 08:59:27,442 : INFO : root : MPF run loop ended.

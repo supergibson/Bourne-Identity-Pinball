@@ -1,0 +1,147 @@
+2026-10-27 00:01:18,669 : INFO : root : Loading config.
+2026-10-27 00:01:18,798 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\super\AppData\Local\Temp\config_spec.mpf_cache
+2026-10-27 00:01:18,798 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-10-27 00:01:18,799 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\3a72cb8a9be49c03769869342cea45ca.mpf_cache
+2026-10-27 00:01:18,866 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\820189b66a30751115d0f175f8cd583f.mpf_cache
+2026-10-27 00:01:18,867 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\df77682f85e5da361c68c53ae7221e86.mpf_cache
+2026-10-27 00:01:18,867 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\820189b66a30751115d0f175f8cd583f.mpf_cache
+2026-10-27 00:01:18,868 : INFO : ConfigProcessor : Loading config from cache: C:\Users\super\AppData\Local\Temp\e86a25183e2094949a0adaffad38af2b.mpf_cache
+2026-10-27 00:01:18,868 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.1
+2026-10-27 00:01:18,868 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-10-27-00-01-18-mpf-LAPTOP-4KU8Q9KV.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\Users\\super\\Documents\\Bourne-Identity-Pinball\\logs\\2026-10-27-00-01-18-mpf-LAPTOP-4KU8Q9KV.log'}
+2026-10-27 00:01:18,868 : INFO : Machine : MPF path: C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf
+2026-10-27 00:01:18,868 : INFO : Machine : Machine path: C:\Users\super\Documents\Bourne-Identity-Pinball
+2026-10-27 00:01:18,868 : INFO : Machine : Platform: win32
+2026-10-27 00:01:18,868 : INFO : Machine : Python executable location: C:\users\super\documents\mpf\mpf\Scripts\python.exe
+2026-10-27 00:01:18,869 : INFO : Machine : Python version: 3.14.3 (64-bit)
+2026-10-27 00:01:18,871 : INFO : Machine : Initializing MPF...
+2026-10-27 00:01:19,003 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,016 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,016 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.1', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,016 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,016 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.14.3', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,183 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,184 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,184 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,184 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,184 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,184 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\Users\\super\\Documents\\Bourne-Identity-Pinball\\logs\\2026-10-27-00-01-18-mpf-LAPTOP-4KU8Q9KV.log', 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,184 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-10-27 00:01:19,195 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('Config validation error: Entry ball_device_ejector_pulse:ball_device_ejector_pulse:eject_coil = "c_trough_eject" is not valid. Device "c_trough_eject" not found in "coils:" section in your config.')>
+Traceback (most recent call last):
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 386, in _configure_targets
+    self.ejector = ejector_class(ejector_config, self, self.machine)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\devices\ball_device\pulse_coil_ejector.py", line 26, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_ejector_pulse", self.config)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+                                'Device "{}" not found in "{}:" section in your config.'.format(item, param),
+                                6)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_ejector_pulse:ball_device_ejector_pulse:eject_coil = "c_trough_eject" is not valid. Device "c_trough_eject" not found in "coils:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-10-27 00:01:19,198 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-10-27 00:01:19,198 : INFO : Machine : Starting the main run loop with active modes: []
+2026-10-27 00:01:19,199 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-10-27 00:01:19,199 : INFO : Machine : Shutting down...
+2026-10-27 00:01:19,199 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-10-27 00:01:19,200 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-10-27 00:01:19,200 : INFO : ball_device.bd_plunger : State: idle
+2026-10-27 00:01:19,207 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-10-27 00:01:19,207 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-10-27 00:01:19,208 : ERROR : asyncio : Exception in callback Util.raise_exceptions() at C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\utility_functions.py:789
+handle: <Handle Util.raise_exceptions() at C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\utility_functions.py:789>
+Traceback (most recent call last):
+  File "C:\Users\super\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\utility_functions.py", line 797, in raise_exceptions
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\ball_controller.py", line 90, in _add_new_balls_to_playfield
+    self.num_balls_known = await self._count_all_balls_in_devices()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\ball_controller.py", line 129, in _count_all_balls_in_devices
+    futures.append(asyncio.ensure_future(device.ball_count_handler.counter.wait_for_count_stable()))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'counter'
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_through_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_through_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_through_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-10-27 00:01:19,218 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-10-27 00:01:19,219 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-10-27 00:01:19,219 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-10-27 00:01:19,219 : INFO : Mode.attract : Will not start because machine is shutting down.
+2026-10-27 00:01:19,220 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\devices\ball_device\ball_device.py", line 386, in _configure_targets
+    self.ejector = ejector_class(ejector_config, self, self.machine)
+                   ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\devices\ball_device\pulse_coil_ejector.py", line 26, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_ejector_pulse", self.config)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        this_spec[k], item=source[k],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        validation_failure_info=ValidationPath(validation_failure_info, k))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 699, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\super\documents\mpf\mpf\Lib\site-packages\mpf\core\config_validator.py", line 413, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+                                'Device "{}" not found in "{}:" section in your config.'.format(item, param),
+                                6)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_ejector_pulse:ball_device_ejector_pulse:eject_coil = "c_trough_eject" is not valid. Device "c_trough_eject" not found in "coils:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-10-27 00:01:19,222 : INFO : root : MPF run loop ended.
